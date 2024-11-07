@@ -1,0 +1,13 @@
+com/DAO/userDAO.class
+com/DB/DBConnect.class
+com/entity/User.class
+com/user/servlet/RegisterServlet.class
+com/admin/Servlet/BooksDeleteServlet.class
+com/admin/Servlet/booksAdd.class
+com/admin/Servlet/EditbookServlet.class
+com/entity/books.class
+com/DAO/userDAOImpl.class
+com/DAO/bookDAOImpl.class
+com/user/servlet/LoginServlet.class
+com/DAO/bookDAO.class
+com/user/servlet/LogoutServlet.class
