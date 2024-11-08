@@ -156,6 +156,22 @@ public class bookDAOImpl implements bookDAO {
         return f;
 
     }
+
+    @Override
+    public List<books> getNewBooks() {
+        
+        List<books> list=new ArrayList<books>();
+        books b=null;
+        try {
+            String sql="select * from books";
+            PreparedStatement ps=conn.prepareStatement(sql);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+    
     
 
 }
